@@ -1,0 +1,14 @@
+com/react_native_with_formik/MainActivity.java
+ com.react_native_with_formik.MainActivity
+com/react_native_with_formik/ReactNativeFlipper.java
+ com.react_native_with_formik.ReactNativeFlipper
+ com.react_native_with_formik.ReactNativeFlipper$1
+ com.react_native_with_formik.ReactNativeFlipper$2
+ com.react_native_with_formik.ReactNativeFlipper$2$1
+com/react_native_with_formik/BuildConfig.java
+ com.react_native_with_formik.BuildConfig
+com/react_native_with_formik/MainApplication.java
+ com.react_native_with_formik.MainApplication
+ com.react_native_with_formik.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
