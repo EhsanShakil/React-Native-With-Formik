@@ -1,6 +1,6 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import {View, Text, Button, TextInput} from 'react-native';
-import {Formik, Field} from 'formik';
+import {Formik} from 'formik';
 import * as Yup from 'yup';
 import styles from '../theme/theme';
 
@@ -26,7 +26,7 @@ const FormikForm = () => {
         isValid,
         handleSubmit,
       }) => (
-        <Fragment>
+        <View>
           <TextInput
             value={values.firstName}
             onChangeText={handleChange('firstName')}
@@ -69,7 +69,7 @@ const FormikForm = () => {
             <Text style={{fontSize: 10, color: 'red'}}>{errors.password}</Text>
           )}
           <Button title="Sign In" disabled={!isValid} onPress={handleSubmit} />
-        </Fragment>
+        </View>
       )}
     </Formik>
   );

@@ -1,11 +1,12 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, SafeAreaView, ScrollView} from 'react-native';
 import FormikForm from './src/screen/Form';
+import styles from './src/theme/theme';
 
 const App = () => {
   return (
-    <View>
-      <Text>React Native With Formik</Text>
+    <View style={styles.container}>
+      <Text style={styles.text}>React Native With Formik & Yup</Text>
       <FormikForm />
     </View>
   );
