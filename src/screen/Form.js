@@ -11,7 +11,9 @@ const FormikForm = () => {
       validationSchema={Yup.object().shape({
         firstName: Yup.string().required('first name is required'),
         lastName: Yup.string().required('last name is required'),
-        email: Yup.string().required('email is required'),
+        email: Yup.string()
+          .email()
+          .required('email is required and must be in email format'),
         password: Yup.string().required('password is required'),
       })}>
       {({
