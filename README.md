@@ -1,2 +1,2 @@
 # React-Native-With-Formik
- Implementing formik in a react native project
+ Implementing Formik and Yup in a react native project
